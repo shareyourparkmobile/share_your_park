@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "406050216423",
+    "firebase_url": "https://share-your-park-mobile.firebaseio.com",
+    "project_id": "share-your-park-mobile",
+    "storage_bucket": "share-your-park-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406050216423:android:42a0b37ef6e63745fb4542",
+        "android_client_info": {
+          "package_name": "com.android.share_your_park"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406050216423-hmeocujqhsg9bh7er5rsa0qb1rocosla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1AHoUs6Q35IaYnPdPM94h9TJmGA2Miz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406050216423-hmeocujqhsg9bh7er5rsa0qb1rocosla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
