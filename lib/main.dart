@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:share_your_park/manu.dart';
-//import 'package:share_your_park/signup.dart';
+import 'package:share_your_park/signup.dart';
 
 
 //import 'app.dart';
@@ -12,7 +11,7 @@ import 'package:share_your_park/manu.dart';
 //import 'adresse.dart';
 //import 'car.dart';
 //import 'syp.dart';
-import 'manu.dart';
+//import 'manu.dart';
 void main() {
   runApp(MyApp());
 }
@@ -24,7 +23,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Share your park',
       theme: ThemeData(),
-      home: Manu(),
+      home: Signup(),
       debugShowCheckedModeBanner: false,
     );
 
