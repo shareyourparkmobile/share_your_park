@@ -3,26 +3,30 @@ import 'package:flutter/material.dart';
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
+    final data = MediaQuery.of(context);
     
     return Scaffold(
       backgroundColor: Color(0xffd84d64),
      body: Center(
        
-       child: Column(
-         crossAxisAlignment: CrossAxisAlignment.center,
-         
-          
-         children: <Widget>[
+       child: SingleChildScrollView(
+                child: Column(
+           crossAxisAlignment: CrossAxisAlignment.center,
            
-           Container(
-             margin: EdgeInsets.only(top: 250 ),
-             child: Image.asset(
-         'assets/logo-syp3.png',
-         width: 100,
-         height: 100,
-         ),
+            
+           children: <Widget>[
+             
+             Container(
+               margin: EdgeInsets.only(top: 250 ),
+               child: Image.asset(
+           'assets/logo-syp3.png',
+           width: 100,
+           height: 100,
            ),
-         ],
+             ),
+           ],
+         ),
        ),
 
      ),
