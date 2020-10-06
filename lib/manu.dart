@@ -14,23 +14,30 @@ class _ManuState extends State<Manu>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     floatingActionButton: FloatingActionButton(
+      floatingActionButton: FloatingActionButton(
        onPressed: (){},
       backgroundColor: Colors.black,
       elevation: 10.0,
-      
-      
-      
-       ),
+     ),
       bottomNavigationBar: BottomAppBar(
         shape: CircularNotchedRectangle(),
         notchMargin: 6.0,
         color: Colors.yellow,
-        elevation: 10.0,
-        child: Container(height: 80),
+        elevation: 20.0,
+        child: Row(
+          children: <Widget> [
+            IconButton(icon: Icon(Icons.menu), onPressed: (){}, color: Colors.white),
+            IconButton(icon: Icon(Icons.search), onPressed: (){}, color: Colors.white),
+            IconButton(icon: Icon(Icons.help_outline), onPressed: (){}, color: Colors.white),
+          ],
+          
+          ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       
     );
   }
 }
+
+
+//https://www.youtube.com/watch?v=S7KG4prI7A4
